@@ -33,6 +33,19 @@ I also encourage you to use comments (`#`) to help you identify each item (I pro
 
 ```{r simple-calculations}
 # Item 1
+s <- 2+5
+print(s)
+
+# Item 2
+int_vect <- (1:9)
+print(int_vect)
+
+#Item 3
+char_vect <- LETTERS[1:17]
+print(char_vect)
+
+#Item 4
+print(sum(char_vect > "D"))
 
 ```
 
